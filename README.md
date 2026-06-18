@@ -78,7 +78,8 @@ The following files were renamed during the May 2026 standardization:
        ...
    }
    ```
-4. Verify locally by running the memorial app and checking the `/memorial-site-image?host=example.gov.pt` endpoint
+4. Run `bash validate.sh` to confirm the filename is valid before pushing
+5. Verify locally by running the memorial app and checking the `/memorial-site-image?host=example.gov.pt` endpoint
 
 ## Local Development Setup
 
