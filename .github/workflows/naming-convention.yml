@@ -1,6 +1,11 @@
 name: Validate image naming convention
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - "img/**"
   pull_request:
     paths:
       - "img/**"
